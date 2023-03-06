@@ -9,10 +9,11 @@ private:
         // define queue data-structure
         queue<int> q;
 
-        // put it in queue
-        q.push(startNode);
         // mark start-node as initial color
         colors[startNode] = 0;
+        
+        // put it in queue
+        q.push(startNode);
 
         while (!q.empty())
         {
