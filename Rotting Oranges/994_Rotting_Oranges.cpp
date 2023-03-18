@@ -1,3 +1,6 @@
+/*
+    This problem help us to get known about BFS algorithm
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
