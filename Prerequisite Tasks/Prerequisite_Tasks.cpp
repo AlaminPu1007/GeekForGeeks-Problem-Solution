@@ -14,18 +14,6 @@ public:
             // item[1] ---> item[0]
             adj[item.first].push_back(item.second);
 
-        // print list of task
-
-        // for(int i = 0; i < n; i++)
-        // {
-        //     cout<<"for "<<i<<" -> ";
-        //     for(auto item: adj[i])
-        //     {
-        //         cout<<item<<" ";
-        //     }
-        //     cout<<endl;
-        // }
-
         // logic for topological sort
         int inDegree[n] = {0};
         queue<int> q;
